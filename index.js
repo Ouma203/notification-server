@@ -32,5 +32,5 @@ app.post('/sendNotification', async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;  // Default to 8080 if PORT is not provided
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
